@@ -1,11 +1,12 @@
-import Background from "./Background";
+import AdvancedBackground from "./AdvanceBackground";
+
 
 export default function Login() {
   return (
     <div style={{ height: "100vh", position: "relative" }}>
       
       {/* 🌌 3D Background */}
-      <Background />
+      <AdvancedBackground />
 
       {/* 🔐 Login Form */}
       <div
