@@ -1,4 +1,5 @@
 import AdvancedBackground from "./AdvanceBackground";
+import Background from "./Background";
 
 
 export default function Login() {
@@ -7,7 +8,8 @@ export default function Login() {
       
       {/* 🌌 3D Background */}
       <AdvancedBackground />
-
+      <Background />
+     
       {/* 🔐 Login Form */}
       <div
         style={{

@@ -1,14 +1,19 @@
-import { Canvas } from '@react-three/fiber'
 import './App.css'
-import Login from './component/Login'
+import Environment from './component/Environment'
+
+ 
+
 
 function App() {
   
   return (
 
     <>
-    <h1>Three.js with React</h1>
-    <Login />
+   
+    
+    
+<Environment/>
+    
       </>
   )
 }
